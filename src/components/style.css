@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.brand {
+  width: 100px;
+}
+
+.nav {
+  background-color: white;
+  background-size: 100%;
+  font-family: montserrat;
+  font-size: 17px;
+}
+
+.bar {
+  margin-left: auto;
+}
+
+.link-nav {
+  box-shadow: inset 0 0 0 0 #188eff;
+  font-family: montserrat;
+  margin: 0px 10px 0 10px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  transition:
+    color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.link-nav:hover {
+  color: #fff;
+  box-shadow: inset 100px 0 0 0 #188eff;
+  border-radius: 10px;
+}
+
+.nav-aktif{
+  color: #fff;
+  box-shadow: inset 100px 0 0 0 #188eff;
+  border-radius: 10px;
+}
+
+.home {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desc h1 {
+  font-family: montserrat;
+  font-size: 60px;
+}
+
+.desc p {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+.desc span {
+  color: #1b375e;
+}
+
+.about {
+  margin: 17% 5% 0 5%;
+  display: flex;
+}
+
+.about-tabs{
+    margin-left: 50px;
+    position:relative;
+    width: 100%;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+
+.foto-profile {
+  text-align: center;
+}
+
+.foto {
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 15px;
+  border: 5px solid #ddd;
+  box-shadow: 10px 10px 10px 0px rgb(107, 107, 107);
+}
+
+.headerc{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.headerc p{
+  font-family: 'Braah One', sans-serif;
+  color: #1b375e;
+}
+
+.strip{
+  margin-left: 100px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contentc{
+  display: flex;
+  justify-content: center;
+}
+
+.right-contentc{
+  text-align: justify;
+  width: 25%;
+  margin-left: 100px;
+}
+
+.sosmed a{
+  margin: 0 5px 0 5px;
+  color: #1b375e;
+}
+
+.contentc button{
+  background-color: #188eff;
+  border: none;
+}
+
+h4{
+  color: #1b375e;
+}
