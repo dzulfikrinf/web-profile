@@ -18,7 +18,7 @@ function App() {
           <Route path="/gallery" component={gallery} />
         </Router>
       </div>
-      {/* <Footer /> */}  
+      <Footer />  
     </>
   );
 }

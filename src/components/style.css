@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 .brand {
   width: 100px;
@@ -45,7 +46,7 @@
 
 .home {
   width: 100%;
-  height: 95vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +68,7 @@
 }
 
 .about {
-  margin: 17% 5% 0 5%;
+  margin: 17% 5% 25% 5%;
   display: flex;
 }
 
@@ -106,6 +107,10 @@
   border-radius: 15px;
   border: 5px solid #ddd;
   box-shadow: 10px 10px 10px 0px rgb(107, 107, 107);
+}
+
+.contact{
+  margin: 12% 0 22% 0;
 }
 
 .headerc{
@@ -159,22 +164,35 @@ h4{
   font-family: 'Montserrat', sans-serif;
 }
 
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.footer {
   width: 100%;
+  background-color: #1b375e;
+  padding: 5px;
 }
 
-.footericon a{
-  color: white;
-  margin : 0 10px 0 10px;
-  outline-color: #188eff;
+.footer span {
+  font-family: 'Kanit', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
 }
+
+.footer a {
+  color: #fff;
+  margin-left: 10px; /* Untuk memberikan jarak antara ikon */
+}
+
+.footer a:hover {
+  color: #188eff;
+}
+
+.social-icons {
+  display: flex;
+}
+
 
 .gallery{
   margin-top: 9%;
-  margin-bottom: 5%;
+  margin-bottom: 9%;
 }
 
 .gallery-top{

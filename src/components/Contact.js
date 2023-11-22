@@ -8,7 +8,7 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <div className="contact" style={{ marginTop: "9%" }}>
+        <div className="contact">
           <div className="headerc">
             <figure>
               <p>CONTACT ME</p>
