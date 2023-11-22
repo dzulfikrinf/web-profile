@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .brand {
   width: 100px;
@@ -9,7 +10,7 @@
 .nav {
   background-color: white;
   background-size: 100%;
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 17px;
 }
 
@@ -19,7 +20,7 @@
 
 .link-nav {
   box-shadow: inset 0 0 0 0 #188eff;
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   margin: 0px 10px 0 10px;
   display: block;
   text-decoration: none;
@@ -51,7 +52,8 @@
 }
 
 .desc h1 {
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   font-size: 60px;
 }
 
@@ -67,6 +69,20 @@
 .about {
   margin: 17% 5% 0 5%;
   display: flex;
+}
+
+.about h1{
+  position: relative;
+}
+
+.abouth h1::after{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Menambahkan tinggi garis horizontal */
+  background-color: #000;
 }
 
 .about-tabs{
@@ -130,4 +146,75 @@
 
 h4{
   color: #1b375e;
+}
+
+.education h6{
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.education p{
+  color: #626262;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footericon a{
+  color: white;
+  margin : 0 10px 0 10px;
+  outline-color: #188eff;
+}
+
+.gallery{
+  margin-top: 9%;
+  margin-bottom: 5%;
+}
+
+.gallery-top{
+  text-align: center;
+  justify-content: center;
+}
+
+.gallery-top img{
+  width: 30%;
+  border-radius: 15px;
+  margin: 0 1% 0 1%;
+}
+
+.gallery-mid{
+  margin: 3% 0 3% 0;
+  display: flex;
+}
+
+.gallery-mid img{
+  margin-right: 1%;
+  border-radius: 15px;
+}
+
+.gallery-slider{
+  width: 50%;
+  padding: 30px;
+  background-color: #1b375e;
+  border-radius: 15px;
+  margin-left: 1%;
+}
+
+.gallery-slider .cimg{
+  text-align: center;
+  width: 100%;
+  filter: grayscale(100);
+  border-radius: 15px;
+  transition: filter 0.5s ease-in-out; 
+}
+
+.gallery-slider .cimg:hover{
+  cursor: pointer;
+  filter: none;
 }

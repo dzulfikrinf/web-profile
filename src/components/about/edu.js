@@ -6,39 +6,53 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
-export default function AlternateTimeline() {
+export default function OutlinedTimeline() {
   return (
     <>
-    <h4>Education</h4>
-    <Timeline position="alternate">
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>MI Cikapayang <br></br> 2010 - 2016</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>MTs Negeri 2 Bandung <br></br> 2016 - 2019</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>SMK Negeri 2 Bandung <br></br> 2019 - 2022</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-        </TimelineSeparator>
-        <TimelineContent>Universitas Pendidikan Indonesia <br></br> 2022 - Now</TimelineContent>
-      </TimelineItem>
-    </Timeline>
+    <div className='education'>
+      <h4>Education</h4>
+      <Timeline position="alternate">
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot variant="outlined" color="primary" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <h6>MI Cikapayang</h6>
+            <p>2010 - 2016</p>
+          </TimelineContent>
+        </TimelineItem> 
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot variant="outlined" color="primary" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <h6>MTs Negeri 2 Bandung</h6>
+            <p>2016 - 2019</p>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot variant="outlined" color="primary" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+          <h6>SMK Negeri 2 Bandung</h6>
+            <p>2019 - 2022</p>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot variant="outlined" color="primary" />
+          </TimelineSeparator>
+          <TimelineContent>
+            <h6>Universitas Pendidikan Indonesia</h6>
+            <p>2022 - Now</p>
+          </TimelineContent>
+        </TimelineItem>
+      </Timeline>
+    </div>
     </>
   );
 }

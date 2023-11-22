@@ -20,6 +20,7 @@ function NavBar(props) {
               <Nav.Link as={Link} to="/" className={`link-nav ${location.pathname === '/' ? 'nav-aktif' : ''}`}>Home</Nav.Link>
               <Nav.Link as={Link} to="/about" className={`link-nav ${location.pathname === '/about' ? 'nav-aktif' : ''}`}>About</Nav.Link>
               <Nav.Link as={Link} to="/contact" className={`link-nav ${location.pathname === '/contact' ? 'nav-aktif' : ''}`}>Contact</Nav.Link>
+              <Nav.Link as={Link} to="/gallery" className={`link-nav ${location.pathname === '/gallery' ? 'nav-aktif' : ''}`}>gallery</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
