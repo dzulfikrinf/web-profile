@@ -47,7 +47,7 @@ class Contact extends Component {
             </form>
             <div className="right-contentc">
               <p>
-              Tak kenal maka ta'aruf, jika Anda ingin berkenalan dengan saya atau Anda memiliki pertanyaan untuk saya, silakan isi form di samping atau bisa hubungi melalui sosial media saya di bawah ini!  
+                Curious about the story behind the scenes? Hey, if there's anything making you wonder about me, let's dive into the intrigue together! I'm ready to unravel the mysteries and answer all your curious questions. Feel free to reach out to me through the provided contact details!  
               </p>
               <div className="sosmed">
                 <a href="https://www.instagram.com/dzulfikrinf/"><BiLogoInstagram size={40}/></a>
